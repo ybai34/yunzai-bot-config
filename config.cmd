@@ -61,3 +61,5 @@ npm run app
 
 # 解决错误码45
 curl -sSL QSign.icu/X | bash
+
+node app
