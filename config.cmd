@@ -39,6 +39,25 @@ nvm alias default 18.12.0
 # 安装依赖
 pnpm install -P
 
+# 安装Redis
+# 更新包索引：
+sudo apt update
+# 安装 Redis 服务器：
+sudo apt install redis-server
+# 启动并启用 Redis 服务：
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+
+# 启动 Redis 服务器：
+redis-server
+# 切窗口
+
+# cd Miao-Yunzai 
+# 测试
+redis-cli ping
+
 # 运行
 npm run app
 
+# 解决错误码45
+curl -sSL QSign.icu/X | bash
